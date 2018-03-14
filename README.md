@@ -1,0 +1,2 @@
+# photo_support_extra
+標準プラグイン photo_support に対応サイトを追加するmikutterプラグイン
