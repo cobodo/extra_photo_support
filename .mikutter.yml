@@ -1,0 +1,10 @@
+---
+slug: :photo_support_extra
+depends:
+  mikutter: 3.6.5
+  plugin:
+    - openimg
+version: '1.0'
+author: cobodo
+name: photo_support_extra
+description: 標準プラグイン photo_support に対応サイトを追加するプラグイン
