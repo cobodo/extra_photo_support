@@ -5,7 +5,7 @@ Plugin.create(:photo_support_extra) do
     next nil if page.empty?
     doc = Nokogiri::HTML(page)
     result = doc.css('#comic > img').first
-    src = result.attribute('srcset').to_s.split(' ').first
+    src = result.attribute('src').to_s
     if src.start_with?('//')
       src = Diva::URI.new(display_url).scheme + ':' + src
     end
